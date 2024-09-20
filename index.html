@@ -47,91 +47,62 @@
             </div>
         </div>
     </section>
-
-    <!-- Sección de Proyectos -->
-    <!-- Sección de Proyectos con Carousel -->
     <section id="proyectos" class="bg-light py-5">
         <div class="container" style="max-width: 1200px;">
             <h2 class="text-center mb-5">Proyectos Destacados</h2>
     
-            <!-- Carrusel de Proyectos -->
-            <div id="carouselProyectos" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <!-- Proyecto 1 -->
-                    <div class="carousel-item active">
-                        <div class="card shadow text-center project-card mx-auto" style="width: 18rem;">
-                            <img src="img/bibliotecafis.png" class="card-img-top project-img" alt="Biblioteca FIS">
-                            <div class="card-body">
-                                <h5 class="card-title">Biblioteca FIS</h5>
-                                <p class="card-text">Página web con PHP - JavaScript - CSS - MySQL</p>
-                                <a href="https://github.com/Adat13/Biblioteca-FIS/" class="btn btn-primary" target="_blank">Ver en GitHub</a>
-                                <a href="https://biblioteca.sistemasuncp.edu.pe/administrador/inventario" class="btn btn-primary" target="_blank">Visitar web</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Proyecto 2 -->
-                    <div class="carousel-item">
-                        <div class="card shadow text-center project-card mx-auto" style="width: 18rem;">
-                            <img src="img/dulzemi.png" class="card-img-top project-img" alt="Pastelería Dulzemi">
-                            <div class="card-body">
-                                <h5 class="card-title">Pastelería Dulzemi</h5>
-                                <p class="card-text">Página web con JavaScript - CSS - HTML - SQL Server - Three.js</p>
-                                <a href="https://github.com/Adat13/Biblioteca-FIS/" class="btn btn-primary" target="_blank">Ver en GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Proyecto 3 -->
-                    <div class="carousel-item">
-                        <div class="card shadow text-center project-card mx-auto" style="width: 18rem;">
-                            <img src="img/tienda.png" class="card-img-top project-img" alt="Artesanías IJD">
-                            <div class="card-body">
-                                <h5 class="card-title">Artesanías IJD</h5>
-                                <p class="card-text">Página web con JavaScript - CSS - HTML - MySQL - Node.js</p>
-                                <a href="https://github.com/Adat13/Artesanias-IJD" class="btn btn-primary" target="_blank">Ver en GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Proyecto 4 -->
-                    <div class="carousel-item">
-                        <div class="card shadow text-center project-card mx-auto" style="width: 18rem;">
-                            <img src="img/zoologico.png" class="card-img-top project-img" alt="Zoológico">
-                            <div class="card-body">
-                                <h5 class="card-title">Zoológico</h5>
-                                <p class="card-text">Aplicación de escritorio con Java y MySQL</p>
-                                <a href="https://github.com/Adat13/Zoologico" class="btn btn-primary" target="_blank">Ver en GitHub</a>
-                            </div>
+            <!-- Proyectos como tarjetas en fila -->
+            <div class="row">
+                <!-- Proyecto 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow text-center project-card mx-auto" style="width: 100%;">
+                        <img src="img/bibliotecafis.png" class="card-img-top project-img" alt="Biblioteca FIS">
+                        <div class="card-body">
+                            <h5 class="card-title">Biblioteca FIS</h5>
+                            <p class="card-text">Página web con PHP - JavaScript - CSS - MySQL</p>
+                            <a href="https://github.com/Adat13/Biblioteca-FIS/" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                            <a href="https://biblioteca.sistemasuncp.edu.pe/administrador/inventario" class="btn btn-primary" target="_blank">Visitar web</a>
                         </div>
                     </div>
                 </div>
-    
-                <!-- Controles del carrusel -->
-                                    <!-- Controles del carrusel -->
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyectos" data-bs-slide="prev">
-                        <span aria-hidden="true">Anterior</span>
-                        <span class="visually-hidden">Anterior</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProyectos" data-bs-slide="next">
-                        <span aria-hidden="true">Siguiente</span>
-                        <span class="visually-hidden">Siguiente</span>
-                    </button>
-
-                    <!-- Botones adicionales para manipulación -->
-                    <div class="d-flex justify-content-center mt-4">
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyectos" data-bs-slide="prev">
-                            <span aria-hidden="true">Anterior</span>
-                            <span class="visually-hidden">Anterior</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselProyectos" data-bs-slide="next">
-                            <span aria-hidden="true">Siguiente</span>
-                            <span class="visually-hidden">Siguiente</span>
-                        </button>
+                <!-- Proyecto 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow text-center project-card mx-auto" style="width: 100%;">
+                        <img src="img/dulzemi.png" class="card-img-top project-img" alt="Pastelería Dulzemi">
+                        <div class="card-body">
+                            <h5 class="card-title">Pastelería Dulzemi</h5>
+                            <p class="card-text">Página web con JavaScript - CSS - HTML - SQL Server - Three.js</p>
+                            <a href="https://github.com/Adat13/Biblioteca-FIS/" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                        </div>
                     </div>
-
-                    
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow text-center project-card mx-auto" style="width: 100%;">
+                        <img src="img/tienda.png" class="card-img-top project-img" alt="Artesanías IJD">
+                        <div class="card-body">
+                            <h5 class="card-title">Artesanías IJD</h5>
+                            <p class="card-text">Página web con JavaScript - CSS - HTML - MySQL - Node.js</p>
+                            <a href="https://github.com/Adat13/Artesanias-IJD" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 4 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow text-center project-card mx-auto" style="width: 100%;">
+                        <img src="img/zoologico.png" class="card-img-top project-img" alt="Zoológico">
+                        <div class="card-body">
+                            <h5 class="card-title">Zoológico</h5>
+                            <p class="card-text">Aplicación de escritorio con Java y MySQL</p>
+                            <a href="https://github.com/Adat13/Zoologico" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    
+    
     
     
 
