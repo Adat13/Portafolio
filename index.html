@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | [Tu Nombre]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    
+    <header class="bg-dark text-light py-4">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <a href="#" class="navbar-brand text-light">ADAT</a>
+            <ul class="nav">
+                <li class="nav-item"><a href="#inicio" class="nav-link text-light">Inicio</a></li>
+                <li class="nav-item"><a href="#sobremi" class="nav-link text-light">Sobre mí</a></li>
+                <li class="nav-item"><a href="#proyectos" class="nav-link text-light">Proyectos</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link text-light">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de inicio con fondo elegante -->
+    <section id="inicio" class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Hola, soy David</h1>
+            <p class="lead">Desarrollador Full Stack especializado en tecnologías como JavaScript, CSS, HTML, Node.js, Python, y C++.</p>
+            <a href="#proyectos" class="btn btn-light mt-3">Ver mis proyectos</a>
+        </div>
+    </section>
+
+    <!-- Sección Sobre mí -->
+    <section id="sobremi" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Sobre mí</h2>
+                    <p>Con más de 1 año de experiencia en desarrollo de software, he participado en proyectos que abarcan desde aplicaciones web interactivas hasta reconocimiento de gestos usando IA. Me especializo en crear soluciones robustas y escalables con tecnologías modernas.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/yo1.jpg" alt="Foto Profesional" class="img-fluid rounded-circle" style="max-width: 300px;">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <!-- Sección de Proyectos con Carousel -->
+    <section id="proyectos" class="bg-light py-5">
+        <div class="container" style="max-width: 1200px;">
+            <h2 class="text-center mb-5">Proyectos Destacados</h2>
+    
+            <!-- Carrusel de Proyectos -->
+            <div id="carouselProyectos" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Proyecto 1 -->
+                    <div class="carousel-item active">
+                        <div class="card shadow text-center project-card mx-auto" style="width: 18rem;">
+                            <img src="img/bibliotecafis.png" class="card-img-top project-img" alt="Biblioteca FIS">
+                            <div class="card-body">
+                                <h5 class="card-title">Biblioteca FIS</h5>
+                                <p class="card-text">Página web con PHP - JavaScript - CSS - MySQL</p>
+                                <a href="https://github.com/Adat13/Biblioteca-FIS/" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                                <a href="https://biblioteca.sistemasuncp.edu.pe/administrador/inventario" class="btn btn-primary" target="_blank">Visitar web</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 2 -->
+                    <div class="carousel-item">
+                        <div class="card shadow text-center project-card mx-auto" style="width: 18rem;">
+                            <img src="img/dulzemi.png" class="card-img-top project-img" alt="Pastelería Dulzemi">
+                            <div class="card-body">
+                                <h5 class="card-title">Pastelería Dulzemi</h5>
+                                <p class="card-text">Página web con JavaScript - CSS - HTML - SQL Server - Three.js</p>
+                                <a href="https://github.com/Adat13/Biblioteca-FIS/" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 3 -->
+                    <div class="carousel-item">
+                        <div class="card shadow text-center project-card mx-auto" style="width: 18rem;">
+                            <img src="img/tienda.png" class="card-img-top project-img" alt="Artesanías IJD">
+                            <div class="card-body">
+                                <h5 class="card-title">Artesanías IJD</h5>
+                                <p class="card-text">Página web con JavaScript - CSS - HTML - MySQL - Node.js</p>
+                                <a href="https://github.com/Adat13/Artesanias-IJD" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 4 -->
+                    <div class="carousel-item">
+                        <div class="card shadow text-center project-card mx-auto" style="width: 18rem;">
+                            <img src="img/zoologico.png" class="card-img-top project-img" alt="Zoológico">
+                            <div class="card-body">
+                                <h5 class="card-title">Zoológico</h5>
+                                <p class="card-text">Aplicación de escritorio con Java y MySQL</p>
+                                <a href="https://github.com/Adat13/Zoologico" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Controles del carrusel -->
+                                    <!-- Controles del carrusel -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyectos" data-bs-slide="prev">
+                        <span aria-hidden="true">Anterior</span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProyectos" data-bs-slide="next">
+                        <span aria-hidden="true">Siguiente</span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+
+                    <!-- Botones adicionales para manipulación -->
+                    <div class="d-flex justify-content-center mt-4">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyectos" data-bs-slide="prev">
+                            <span aria-hidden="true">Anterior</span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselProyectos" data-bs-slide="next">
+                            <span aria-hidden="true">Siguiente</span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contacto</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form action="https://formspree.io/f/davidangeladat@gmail.com" method="POST">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Tu correo" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" name="message" rows="4" placeholder="Tu mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light text-center py-4">
+        <p>&copy; 2024 David Angel - Desarrollador Full Stack</p>
+        <div>
+            <a href="https://github.com/adat13" target="_blank" class="text-light mx-2"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/tu-usuario" target="_blank" class="text-light mx-2"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var carouselElement = document.querySelector('#carouselProyectos');
+        var carousel = new bootstrap.Carousel(carouselElement, {
+            interval: 3000, // Cambiar cada 2 segundos (2000 ms)
+            ride: 'carousel'
+        });
+    </script>
+    
+</body>
+</html>

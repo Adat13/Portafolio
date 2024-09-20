@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+header, footer {
+    background-color: #333;
+}
+
+
+.rounded-circle {
+    width: 2px; /* Ajusta el tamaño según necesites */
+    height: 2px; /* Asegúrate de que la altura y el ancho sean iguales */
+    border-radius: 50%; /* Esto convierte la imagen en un círculo */
+    object-fit: cover; /* Para asegurarte de que la imagen se recorta correctamente dentro del círculo */
+}
+/* Ajustar tamaño fijo para todas las tarjetas */
+/* Ajustar el tamaño de las tarjetas */
+
+
+
+
+/* Ajustar el cuerpo de la tarjeta para centrar el contenido */
+.card-body {
+    flex-grow: 2; /* Para que ocupe el espacio restante en la tarjeta */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    text-align: center;
+}
+
+/* Establecer el tamaño de las tarjetas */
+.project-card {
+    height: 500px; /* Aumentar altura de las tarjetas */
+    width: 20rem;  /* Aumentar ancho de las tarjetas */
+}
+
+/* Ajustar el tamaño de las imágenes dentro de las tarjetas */
+.project-img {
+    height: 250px; /* Aumentar altura de todas las imágenes */
+    object-fit: cover; /* Mantener el recorte adecuado */
+}
+
+
+/* Ajustar el contenido de la tarjeta */
+.card-body {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Centrar el texto de los botones */
+.btn {
+    margin-top: 10px;
+    background-color: #000000;
+}
+
+#carouselProyectos .carousel-inner {
+    max-width: 1200px; /* Cambia el valor según lo necesites */
+    margin: auto; /* Centra el carrusel */
+}
+/* Ajusta el área de los botones de navegación para que ocupen todo el espacio lateral */
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.8) !important; /* Gris oscuro */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.8); /* Gris oscuro */
+    color: rgb(0, 0, 0); /* Color del texto */
+    padding: 10px 20px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Esquinas redondeadas */
+    text-align: center; /* Centrar el texto */
+    text-decoration: none; /* Quitar el subrayado */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 1); /* Más oscuro al hacer hover */
+}
